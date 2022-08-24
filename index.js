@@ -1,6 +1,6 @@
 var arr = [".one", ".two", ".three", ".four", ".five"];
 document.querySelector(".one").addEventListener("mouseenter", function () {
-  document.querySelector(".one").style.width = "35%";
+  document.querySelector(".one").style.width = "45%";
   for (i of arr) {
     if (i != ".one") {
       console.log(i);
@@ -9,7 +9,7 @@ document.querySelector(".one").addEventListener("mouseenter", function () {
   }
 });
 document.querySelector(".two").addEventListener("mouseenter", function () {
-  document.querySelector(".two").style.width = "35%";
+  document.querySelector(".two").style.width = "45%";
   for (i of arr) {
     if (i != ".two") {
       console.log(i);
@@ -18,7 +18,7 @@ document.querySelector(".two").addEventListener("mouseenter", function () {
   }
 });
 document.querySelector(".three").addEventListener("mouseenter", function () {
-  document.querySelector(".three").style.width = "35%";
+  document.querySelector(".three").style.width = "45%";
   for (i of arr) {
     if (i != ".three") {
       console.log(i);
@@ -27,7 +27,7 @@ document.querySelector(".three").addEventListener("mouseenter", function () {
   }
 });
 document.querySelector(".four").addEventListener("mouseenter", function () {
-  document.querySelector(".four").style.width = "35%";
+  document.querySelector(".four").style.width = "45%";
   for (i of arr) {
     if (i != ".four") {
       console.log(i);
@@ -36,7 +36,7 @@ document.querySelector(".four").addEventListener("mouseenter", function () {
   }
 });
 document.querySelector(".five").addEventListener("mouseenter", function () {
-  document.querySelector(".five").style.width = "35%";
+  document.querySelector(".five").style.width = "45%";
   for (i of arr) {
     if (i != ".five") {
       console.log(i);
